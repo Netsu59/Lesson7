@@ -1,12 +1,6 @@
 import java.net.http.HttpClient;
 
 public class MoviesPosterRepository {
-    private String dbUrl;
-    private HttpClient client = HttpClient.newHttpClient();
-
-    public MoviesPosterRepository(String dbUrl) {
-        this.dbUrl = dbUrl;
-    }
 
     private Movies[] movies = new Movies[0];
 

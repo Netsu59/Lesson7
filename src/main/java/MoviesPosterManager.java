@@ -1,9 +1,6 @@
 public class MoviesPosterManager {
     private MoviesPosterRepository repository;
 
-    public void MoviesPosterManager(MoviesPosterRepository repository) {this.repository = repository;}
-
-
     private int maxMoviesCount;
 
     public MoviesPosterManager() { maxMoviesCount = 10; }
@@ -17,10 +14,10 @@ public class MoviesPosterManager {
 
 
     public void add(Movies movie) {
-        int length = movies.length+1;
+        int length = movies.length + 1;
         Movies tmp[] = new Movies[length];
-        for(int i=0;i < movies.length;i++){
-            tmp[i]= movies[i];
+        for(int i = 0; i < movies.length; i++){
+            tmp[i] = movies[i];
         }
         int lastIndex = tmp.length-1;
         tmp[lastIndex] = movie;
@@ -28,19 +25,19 @@ public class MoviesPosterManager {
     }
 
     public Movies[] findLast(){
-        Movies[] result = repository.findAll();
+        Movies[] repositoryResult = repository.findAll();
         int resultLength;
-        if(result.length >= maxMoviesCount){
+        if(repositoryResult.length >= maxMoviesCount){
             resultLength = maxMoviesCount;
         } else {
-            resultLength = result.length;
+            resultLength = repositoryResult.length;
         }
-        Movies result1[] = new Movies[resultLength];
-        for(int i = 0;i < result1.length;i++){
-            int index = result.length - i - 1;
-            result1[i] = result[index];
+        Movies result[] = new Movies[resultLength];
+        for(int i = 0; i < result.length; i++){
+            int index = repositoryResult.length - i - 1;
+            result[i] = repositoryResult[index];
         }
-        return result1;
+        return result;
     }
 
 
