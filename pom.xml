@@ -74,8 +74,8 @@
                             <goal>check</goal>
                         </goals>
                         <configuration>
-<!--                            <rules>-->
-<!--                                <rule>-->
+                            <rules>
+                                <rule>
 <!--                                    <element>BUNDLE</element>-->
 <!--                                    <limits>-->
 <!--                                        <limit>-->
@@ -84,8 +84,8 @@
 <!--                                            <minimum>100%</minimum>-->
 <!--                                        </limit>-->
 <!--                                    </limits>-->
-<!--                                </rule>-->
-<!--                            </rules>-->
+                                </rule>
+                            </rules>
                         </configuration>
                     </execution>
                     <execution>

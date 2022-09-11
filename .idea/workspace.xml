@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a733f28c-9db4-42d7-af4b-f2e76f3f0ef3" name="Changes" comment="Написание тестов и классов">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a733f28c-9db4-42d7-af4b-f2e76f3f0ef3" name="Changes" comment="Исправление">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Movies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoviesPosterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoviesPosterManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoviesPosterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoviesPosterRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662894114441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Исправление">
+      <created>1662899888598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662899888598</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Написание тестов и классов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Написание тестов и классов" />
+    <MESSAGE value="Исправление" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправление" />
   </component>
 </project>
