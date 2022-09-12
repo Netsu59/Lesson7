@@ -18,7 +18,7 @@ public class MoviesPosterOneMaxMoviesTest {
 
 
     @Test
-    void shouldReturnOneLastMovieTwo() {
+    void shouldReturnOneLastMovieFromTwoMoviesRepository() {
         Movies[] returned = new Movies[]{first,second};
         doReturn(returned).when(repository).findAll();
 
@@ -30,7 +30,7 @@ public class MoviesPosterOneMaxMoviesTest {
     }
 
     @Test
-    void shouldReturnOneLastMovieOne() {
+    void shouldReturnOneLastMovieFromOneMovieRepository() {
         Movies[] returned = new Movies[]{first};
         doReturn(returned).when(repository).findAll();
 
@@ -42,7 +42,7 @@ public class MoviesPosterOneMaxMoviesTest {
     }
 
     @Test
-    void shouldReturnOneLastMovieZero() {
+    void shouldReturnZeroMovie() {
         Movies[] returned = new Movies[]{};
         doReturn(returned).when(repository).findAll();
 
