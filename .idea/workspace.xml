@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a733f28c-9db4-42d7-af4b-f2e76f3f0ef3" name="Changes" comment="Исправление">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MoviesPosterDefaultMaxMoviesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoviesPosterDefaultMaxMoviesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MoviesPosterOneMaxMoviesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoviesPosterOneMaxMoviesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MoviesPosterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoviesPosterManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662901819967</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Исправление названий и добавление нового класса">
+      <created>1662977379551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662977379551</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Написание тестов и классов" />
+    <MESSAGE value="Исправление названий и добавление нового класса" />
     <MESSAGE value="Исправление" />
     <option name="LAST_COMMIT_MESSAGE" value="Исправление" />
   </component>
